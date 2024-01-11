@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Заказ</title>
 </head>
 <body>
     <ul>
-        <li>Главная</li>
-        <li>Обо мне</li>
-        <li>Оставить заявку</li>
+        <li><a href="./index.html" class="menu">Главная</a></li>
+        <li><a href="./info/about.html" class="menu">Обо мне</a></li>
+        <li><a href="./zakaz.html" class="menu">Оставить заявку</a></li>
     </ul>
     <h1>Оставить заявку</h1>
     <form>
-        <p>Поле ввода вашего имени <input type="text" size="40" placeholder="Введите ваше имя"><br></p>
-        <p>Поле ввода почтового ящика <input type="text" size="40" placeholder="Введите адрес почты"><br></p>
-        <p><input type="submit" value="Отправить"> <input type="reset" value="Очистить"></p>
+        <p class="paragraf">Поле ввода вашего имени <input type="text" size="40" placeholder="Введите ваше имя" class="input"><br></p>
+        <p class="paragraf">Поле ввода почтового ящика <input type="text" size="40" placeholder="Введите адрес почты" class="input"><br></p>
+        <p class="paragraf"><input type="submit" value="Отправить" class="inpbutton"> <input type="reset" value="Очистить" class="inpbutton"></p>
     </form>
-    <div id="title"><img src="./img/child.jpg" width="640" height="158" 
-        alt="Детский образовательный центр"><br>
-       <img src="images/navigate.png" width="640" height="30" alt="Навигация по сайту"
-        usemap="#Navigation"></div>
-       <p><map id="Navigation" name="Navigation">
-        <area shape="poly" coords="113,24,211,24,233,0,137,0" href="inform.html" alt="Информация">
-        <area shape="poly" coords="210,24,233,0,329,0,307,24" href="activity.html" alt="Мероприятия">
-        <area shape="poly" coords="304,24,385,24,407,0,329,0" href="depart.html" alt="Отделения">
-        <area shape="poly" coords="384,24,449,24,473,0,406,0" href="techinfo.html" alt="Техническая информация">
-        <area shape="poly" coords="449,24,501,24,525,0,473,0" href="study.html" alt="Обучение">
-        <area shape="poly" coords="501,24,560,24,583,0,525,0" href="work.html" alt="Работа">
-        <area shape="poly" coords="560,24,615,24,639,0,585,0" href="misk.html" alt="Разное">
-       </map></p>
+    <img src="./img/child.jpg" alt="Описание изображения" usemap="#map">
+
+    <map name="map">
+    <area shape="circle" coords="100,100,50" href="https://vk.com" alt="Описание области 1" title="LINK">
+    <area shape="circle" coords="200,200,50" href="https://facebook.com" alt="Описание области 2">
+    <area shape="circle" coords="300,300,50" href="https://instagram.com" alt="Описание области 3">
+    </map>
+
+    <table border="1">
+        <tbody><tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+        <th>Заголовок 3</th></tr>
+        <tr>
+        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, vitae!</td>
+        <td>Lorem ipsum dolor sit.</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        </tbody>
+        </table>
 </body>
 </html>
