@@ -4,56 +4,190 @@
 }
 
 .homepage {
-    padding: 40px 320px 100px 320px;
-    width: 1174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 84px;
+    padding: 40px 373px 100px 373px;
+    background: #fff;
 }
 
 .topmenu {
     display: flex;
+    align-items: center;
+    gap: 460px;
 }
 
 .logo {
-    margin-right: 460px;
+    display: flex;
     height: 40px;
-    width: 136px;
+    width: 137px;
+    padding-right: 0.878px;
+    justify-content: center;
+    align-items: center;
+    gap: 14.792px;
+}
+
+.textlogo {
+    width: 86.33px;
+    height: 17.472px;
+    flex-shrink: 0;
 }
 
 .mainmenu {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.mainmenu .tab {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tab.features {
+    gap: 6px;
+}
+
+.mainmenu a {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.mainmenu a:hover {
+    color: #F25822;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .home {
     display: flex;
-    margin-top: 84px;
+    width: 1174px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .homemeta {
-    margin-right: 52px;
-    width: 1174px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.hometitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hometitle h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    align-self: stretch;
+}
+
+.hometitle p {
+    align-self: stretch;
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 .imgmeta {
+    display: flex;
     width: 545px;
     height: 375px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .buttonmeta {
-    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
 }
 
 .startnow {
-    margin: 48px;
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+    display: flex;
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.watchvideo {
+    color: #AAA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .brandlogo {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
 .brandlogoimg {
-    margin-right: 48px;
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
 }
 
-.kanba2  {
-    margin-right: 0;
+.liva {
+    width: 134px;
+    background: url(./img/1.png)
+}
+
+.kanba {
+    background: url(./img/6.png)
+}
+
+.amara {
+    background: url(./img/3.png)
+}
+
+.aven {
+    background: url(./img/4.png)
+}
+
+.hexlab {
+    background: url(./img/5.png)
 }
