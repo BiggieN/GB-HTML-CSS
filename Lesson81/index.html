@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6949fdd6b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="container">
+        <h3>Заполните поля</h3>
+        <form>
+            <div class="form-floating mb-3">
+                <i class="icon fa-solid fa-user-tie fa-lg"></i>
+                <input type="text" class="form-control" id="floatingName" placeholder="Name" required autofocus>
+                <label for="floatingName">
+                    Name:
+                </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <i class="icon fa-solid fa-envelope fa-lg"></i>
+                <input type="email" class="form-control" id="floatingEmail" placeholder="Email" required>
+                <label for="floatingEmail">
+                    Email:
+                </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <i class="icon fa-solid fa-key fa-lg"></i>
+                <input type="password" class="form-control" id="floatingPass" placeholder="Password" required>
+                <label for="floatingPass">
+                    Password:
+                </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <i class="icon fa-solid fa-phone fa-lg"></i>
+                <input type="number" class="form-control" id="floatingPhone" placeholder="Phone" required>
+                <label for="floatingPhone">
+                    Phone:
+                </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <i class="icon fa-regular fa-user fa-lg"></i>
+                <input type="number" class="form-control" id="floatingAge" placeholder="Age" required>
+                <label for="floatingAge">
+                    Age:
+                </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <i class="icon fa-solid fa-cake-candles fa-lg"></i>
+                <input type="date" class="form-control" id="floatingBirth" placeholder="Birthdate" required>
+                <label for="floatingBirth">
+                    Birthdate:
+                </label>
+            </div>
+
+            <div class="volume">
+                <i class="fa-solid fa-phone-volume"></i>
+                <label for="volume-input">
+                    Volume:
+                </label>
+                <input type="range" name="volume-input" id="volume-input" min="1" max="10"/>
+            </div>
+            
+
+            <div class="chckbox">
+                <label for="accept-rules">
+                    <span>Согласиться с условиями</span>
+                    <input type="checkbox" name="accept-rules" id="accept-rules" required />
+                </label>
+                
+            </div>
+
+            <button type="submit" class="btn btn-outline-dark mb-5">
+                Отправить
+            </button>
+
+                
+            
+        </form>
+    </div>
+</body>
+
+</html>
